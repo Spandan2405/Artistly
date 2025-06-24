@@ -14,7 +14,13 @@ export default function Header() {
     <header className=" bg-gray-200 shadow">
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold text-blue-600">
-          <Image src="/images/Logo.png" width={150} height={100} alt="logo" />
+          <Image
+            src="/images/Logo.png"
+            width={150}
+            height={100}
+            alt="logo"
+            loading="lazy"
+          />
         </Link>
         <div className="hidden space-x-4 md:flex flex-col md:flex-row">
           <Link

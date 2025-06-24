@@ -2,8 +2,8 @@ import "./globals.css";
 import Header from "../components/Header";
 
 export const metadata = {
-  title: "Artistly - Performing Artist Booking Platform",
-  description: "Connect event planners with performing artists.",
+  title: "Browse Artists | Artistly",
+  description: "Find performers for your next event",
 };
 
 export default function RootLayout({ children }) {

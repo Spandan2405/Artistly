@@ -6,32 +6,29 @@ import Link from "next/link";
 import FeatureHighlights from "@/components/FeatureHighlights";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
 import CTABanner from "@/components/CTABanner";
+import Image from "next/image";
 
 // Artist category data
 const categories = [
   {
     title: "Singers",
     description: "Discover talented vocalists for your events.",
-    image:
-      "https://static.vecteezy.com/system/resources/thumbnails/029/630/459/small_2x/handsome-young-male-singer-holds-a-microphone-stand-and-performs-on-a-concert-stage-free-photo.jpeg",
+    image: "/images/singer.jpg",
   },
   {
     title: "Dancers",
     description: "Find dynamic performers to light up your stage.",
-    image:
-      "https://wallpapers.com/images/hd/ballerina-paint-explosion-tnvpop0n3u3fc570.jpg",
+    image: "/images/dancer.jpg",
   },
   {
     title: "Speakers",
     description: "Engage your audience with inspiring speakers.",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyfxswIeiU15SZBTvQHWBnPzffqukN6GESFJatVoxPoJnw0Y8Qzv8NdmjufaRWnbjJH2Y&usqp=CAU",
+    image: "/images/speaker.jpg",
   },
   {
     title: "DJ's",
     description: "Get the party started with top DJs from around the globe",
-    image:
-      "https://www.pixelstalk.net/wp-content/uploads/images6/Dj-HD-Wallpaper-Free-download.jpg",
+    image: "/images/dj.jpg",
   },
 ];
 
@@ -108,10 +105,13 @@ export default function Home() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <img
+                  <Image
                     src={category.image}
                     alt={`${category.title} category`}
-                    className="w-full h-40 object-cover rounded-md mb-4"
+                    width={400}
+                    height={300}
+                    loading="lazy"
+                    className=" object-cover rounded-md mb-4"
                   />
                   <p className="text-gray-600 group-hover:text-black font-mono">
                     {category.description}

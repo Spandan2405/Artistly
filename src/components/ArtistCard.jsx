@@ -18,6 +18,7 @@ export default function ArtistCard({ artist }) {
           className="profile object-cover rounded-md mb-4"
           width={400}
           height={300}
+          loading="lazy"
         />
         <p className="text-gray-600 mb-2">
           <strong>Category:</strong> {artist.category}
