@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "name": "Ava Smith",
+    "category": "Singer",
+    "img": "/images/singer_ava.jpg",
+    "priceRange": "5000-10000",
+    "location": "Mumbai",
+    "languages": ["English", "Hindi"]
+  },
+  {
+    "id": 2,
+    "name": "Liam Patel",
+    "category": "DJ",
+    "img": "/images/dj_liam.jpg",
+    "priceRange": "10000-20000",
+    "location": "Delhi",
+    "languages": ["English"]
+  },
+  {
+    "id": 3,
+    "name": "Priya Sharma",
+    "category": "Dancer",
+    "img": "/images/dancer_priya.jpg",
+    "priceRange": "3000-8000",
+    "location": "Bangalore",
+    "languages": ["Hindi", "Kannada"]
+  },
+  {
+    "id": 4,
+    "name": "Rohan Singh",
+    "category": "DJ",
+    "priceRange": "5000-10000",
+    "location": "Delhi",
+    "languages": ["Hindi", "Punjabi"],
+    "img": "/images/dj_rohan.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Neha Sharma",
+    "category": "Dancer",
+    "priceRange": "10000-20000",
+    "location": "Bangalore",
+    "languages": ["Kannada", "English"],
+    "img": "/images/dancer_neha.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Kiran Reddy",
+    "category": "Dancer",
+    "priceRange": "10000-20000",
+    "location": "Bangalore",
+    "languages": ["Telugu", "English"],
+    "img": "/images/dancer_kiran.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Saanvi Gupta",
+    "category": "Singer",
+    "priceRange": "5000-10000",
+    "location": "Delhi",
+    "languages": ["Hindi", "English"],
+    "img": "/images/singer_saanvi.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Arjun Desai",
+    "category": "Singer",
+    "priceRange": "5000-10000",
+    "location": "Delhi",
+    "languages": ["Marathi", "Hindi"],
+    "img": "/images/singer_arjun.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Zara Khan",
+    "category": "DJ",
+    "priceRange": "3000-8000",
+    "location": "Mumbai",
+    "languages": ["Urdu", "English"],
+    "img": "/images/dj_zara.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Vikram Rao",
+    "category": "DJ",
+    "priceRange": "3000-8000",
+    "location": "Mumbai",
+    "languages": ["Kannada", "Hindi"],
+    "img": "/images/dj_vikram.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Anika Iyer",
+    "category": "Dancer",
+    "priceRange": "5000-10000",
+    "location": "Delhi",
+    "languages": ["Tamil", "English"],
+    "img": "/images/dancer_anika.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Aditya Nair",
+    "category": "Dancer",
+    "priceRange": "5000-10000",
+    "location": "Delhi",
+    "languages": ["Malayalam", "English"],
+    "img": "/images/dancer_aditya.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Riya Malhotra",
+    "category": "Singer",
+    "priceRange": "10000-20000",
+    "location": "Bangalore",
+    "languages": ["Kannada", "Hindi"],
+    "img": "/images/singer_riya.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Kunal Joshi",
+    "category": "Singer",
+    "priceRange": "10000-20000",
+    "location": "Bangalore",
+    "languages": ["Gujarati", "English"],
+    "img": "/images/singer_kunal.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Sneha Kapoor",
+    "category": "DJ",
+    "priceRange": "10000-20000",
+    "location": "Bangalore",
+    "languages": ["Hindi", "English"],
+    "img": "/images/dj_sneha.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Aryan Verma",
+    "category": "DJ",
+    "priceRange": "10000-20000",
+    "location": "Bangalore",
+    "languages": ["Punjabi", "English"],
+    "img": "/images/dj_aryan.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Meera Patel",
+    "category": "Dancer",
+    "priceRange": "3000-8000",
+    "location": "Mumbai",
+    "languages": ["Gujarati", "Hindi"],
+    "img": "/images/dancer_meera.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Ishaan Singh",
+    "category": "Dancer",
+    "priceRange": "3000-8000",
+    "location": "Mumbai",
+    "languages": ["Punjabi", "English"],
+    "img": "/images/dancer_ishaan.jpg"
+  }
+]
